@@ -1,12 +1,16 @@
-import { Card, CardMedia, CardContent, CardHeader, Typography } from "@mui/material";
+import { Card, CardMedia, CardContent, Typography } from "@mui/material";
+import { myTheme as theme } from "../theme";
 
 export function MovieCard({ title, year, genre, poster }) {
   const cardStyle = {
     height: "45vh",
     width: "30vh",
     cursor: "pointer",
+    bgcolor: 'primary.main',
+    color: 'text.main',
+    boxShadow: `0 0.5px 7px ${theme.palette.secondary.main}, 0 0.5px 7px ${theme.palette.secondary.main}`,
     "&:hover": {
-      filter: "brightness(80%)",
+      filter: "brightness(75%)",
       transition: '0.2s'
     }
   };

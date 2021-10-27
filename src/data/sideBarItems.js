@@ -3,26 +3,26 @@ import { Flight, Headset, LocalBar, MoodBad, Mood, Movie } from '@mui/icons-mate
 export const sideBarItems = [
     {
         text: 'flight movies',
-        icon: () => <Flight />
+        icon: (color) => <Flight sx={{color: color}}/>
     },
     {
         text: 'movies to watch when drunk',
-        icon: () => <LocalBar />
+        icon: (color) => <LocalBar sx={{color: color}}/>
     },
     {
         text: 'silent movies',
-        icon: () => <Headset />
+        icon: (color) => <Headset sx={{color: color}}/>
     },
     {
         text: 'happy movies',
-        icon: () => <Mood />
+        icon: (color) => <Mood sx={{color: color}}/>
     },
     {
         text: 'sad movies',
-        icon: () => <MoodBad />
+        icon: (color) => <MoodBad sx={{color: color}}/>
     },
     {
         text: 'movies about movies',
-        icon: () => <Movie />
+        icon: (color) => <Movie sx={{color: color}}/>
     }
 ]

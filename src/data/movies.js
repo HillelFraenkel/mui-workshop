@@ -2,16 +2,29 @@ export const movies = [
     {
         title: 'The Last Airbender',
         year: 2010,
-        genre: 'Romance',
+        genre: 'Crime',
         poster: 'the-last-airbender.jpg'
-    },
-    {
+    }, {
+        title: 'The Emoji Movie',
+        year: 2017,
+        genre: 'Historical Fiction',
+        poster: 'the-emoji-movie.jpg'
+    }, {
+        title: 'Cats',
+        year: 2019,
+        genre: 'Horror',
+        poster: 'cats.jpg'
+    }, {
         title: 'Eragon',
         year: 2006,
         genre: 'War',
         poster: 'eragon.jpg'
-    },
-    {
+    }, {
+        title: 'Howard The Duck',
+        year: 1986,
+        genre: 'Documentary',
+        poster: 'howard-the-duck.jpg'
+    }, {
         title: 'Suicide Squad',
         year: 2016,
         genre: 'Teen Comedy',
@@ -27,15 +40,10 @@ export const movies = [
         genre: 'Comedy',
         poster: 'death-note.jpg'
     }, {
-        title: 'X-Men Origins: Wolverine',
-        year: 2009,
-        genre: 'Documentary',
-        poster: 'x-men-origins-wolverine.jpg'
-    }, {
-        title: 'Cats',
-        year: 2019,
-        genre: 'Horror',
-        poster: 'cats.jpg'
+        title: 'Batman And Robin',
+        year: 1997,
+        genre: 'Romance',
+        poster: 'batman-and-robin.jpg'
     }, {
         title: 'Green Lantern',
         year: 2011,
@@ -52,10 +60,10 @@ export const movies = [
         genre: 'Anime',
         poster: 'alice.jpg'
     }, {
-        title: 'Batman And Robin',
-        year: 1997,
-        genre: 'Romance',
-        poster: 'batman-and-robin.jpg'
+        title: 'X-Men Origins: Wolverine',
+        year: 2009,
+        genre: 'Documentary',
+        poster: 'x-men-origins-wolverine.jpg'
     }, {
         title: 'The Amazing Spiderman 2',
         year: 2014,
@@ -72,14 +80,14 @@ export const movies = [
         genre: 'Adventure',
         poster: 'batman-v-superman.jpg'
     }, {
-        title: 'The Emoji Movie',
-        year: 2017,
-        genre: 'Historical Fiction',
-        poster: 'the-emoji-movie.jpg'
+        title: 'Twilight',
+        year: 2008,
+        genre: 'Soap Opera',
+        poster: 'twilight.jpg'
     }, {
-        title: 'Howard The Duck',
-        year: 1986,
-        genre: 'Documentary',
-        poster: 'howard-the-duck.jpg'
+        title: 'Percy Jackson: The Lightning Thief',
+        year: 2010,
+        genre: 'Religion',
+        poster: 'percy-jackson.jpg'
     }
 ]
