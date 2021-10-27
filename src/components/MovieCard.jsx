@@ -3,8 +3,8 @@ import { myTheme as theme } from "../theme";
 
 export function MovieCard({ title, year, genre, poster, description, expand }) {
   const cardStyle = {
-    height: "45vh",
-    width: "30vh",
+    height: "275px",
+    width: "175px",
     cursor: "pointer",
     bgcolor: "primary.main",
     color: "text.main",

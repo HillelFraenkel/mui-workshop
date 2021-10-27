@@ -7,11 +7,10 @@ import Movies from "./components/Movies";
 import { useState } from 'react';
 function App() {
 
-  const [sideBarOpen, setSideBarOpen] = useState(false);
   return (
     <div className="App">
       <ThemeProvider theme={myTheme}>
-        <TopBar setSideBarOpen={setSideBarOpen} />
+        <TopBar />
         <Movies />
       </ThemeProvider>
     </div>

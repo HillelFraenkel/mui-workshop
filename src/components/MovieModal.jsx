@@ -18,7 +18,7 @@ export default function MovieModal(props) {
           left: "50%",
           transform: "translate(-50%, -50%)",
           width: 800,
-          height: 500,
+          height: 375,
           border: 0,
           bgcolor: "primary.main",
           boxShadow: 24,
@@ -26,7 +26,7 @@ export default function MovieModal(props) {
           borderRadius: 5
         }}
       >
-        <Typography variant="h1" color="secondary">
+        <Typography variant="h3" color="secondary">
           {props.movie && props.movie.title}
         </Typography>
         <Box>

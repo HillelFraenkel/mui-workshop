@@ -79,7 +79,7 @@ export default function TopBar(props) {
             sx={{ ml: 5, flexGrow: 1 }}
             color="secondary"
           >
-            NETFLIX
+            FAKEFLIX
           </Typography>
           <ButtonGroup sx={{ right: "5%" }}>
             <IconButton size="large" onClick={alertHandler}>
