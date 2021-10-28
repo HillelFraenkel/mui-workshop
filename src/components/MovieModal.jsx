@@ -23,7 +23,8 @@ export default function MovieModal(props) {
           bgcolor: "primary.main",
           boxShadow: 24,
           p: 4,
-          borderRadius: 5
+          borderRadius: 5,
+          outline:'none'
         }}
       >
         <Typography variant="h3" color="secondary">
